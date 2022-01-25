@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  body {
+    font-size: 18px;
+    font-family: "Segoe UI";
+  line-height: 24px;
+  }
+  
+  #container.dark {
+    background: rgb(19, 19, 46);
+    color: white;
+  }

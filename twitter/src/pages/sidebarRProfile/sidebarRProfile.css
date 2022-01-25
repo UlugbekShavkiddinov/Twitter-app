@@ -1,0 +1,17 @@
+.images img {
+    width: 86.66px;
+    
+    padding: 0;
+    margin: 0;
+    display: block;
+
+}
+
+
+.images {
+    display: flex;
+    width: 260px;
+    flex-wrap: wrap;
+    margin-top: 11px;
+    margin-bottom: 20px;
+}

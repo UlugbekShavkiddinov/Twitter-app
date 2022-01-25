@@ -1,0 +1,191 @@
+.logo {
+    width: 40px;
+    height: 33px;
+}
+
+.logo > * {
+    max-width: 100%;
+}
+
+#sidebarL-wrapper {
+    width: 268px !important;
+    padding-top: 31px;
+    margin-left: 18px;
+    margin-right: 16px;
+}
+
+.navbar {
+    list-style: none;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 52px;
+}
+
+.navbar > * {
+    margin-bottom: 34px;
+
+}
+
+.navbar button {
+    border: none;
+    background: none;
+    font-weight: 600
+}
+
+.navbar__home {
+    position: relative;
+}
+.navbar__home::before {
+
+
+    content: '';
+    background: url('../../libs/images/home1.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+
+}
+.navbar__explore {
+    position: relative;
+}
+.navbar__explore::before { 
+    content: '';
+    background: url('../../libs/images/explore.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.navbar__notifications {
+    position: relative;
+}
+.navbar__notifications::before {
+    content: '';
+    background: url('../../libs/images/qongiroq.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.navbar__messages {
+    position: relative;
+}
+
+.navbar__messages::before {
+    content: '';
+    background: url('../../libs/images/messages.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.navbar__bookmarks {
+    position: relative;
+}
+
+.navbar__bookmarks::before {
+    content: '';
+    background: url('../../libs/images/bookmarks.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.navbar__lists {
+    position: relative;
+}
+.navbar__lists::before {
+    content: '';
+    background: url('../../libs/images/lists.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+.navbar__profile {
+    position: relative;
+}
+.navbar__profile::before {
+    content: '';
+    background: url('../../libs/images/profile1.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+
+.navbar__profile--active {
+    color: red;
+}
+
+.navbar__more {
+    position: relative;
+}
+.navbar__more::before {
+    content: '';
+    background: url('../../libs/images/more1.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -47px;
+    width: 28px;
+    height: 28px;
+    z-index: 1;
+}
+
+.btn-sidebar {
+padding: 15px 80px;
+color: white;
+font-weight: 700;
+background: #1D9BF0;
+border-radius: 27.5px;
+display: inline-block;
+margin-top: 32px;
+margin-left: -10px;
+width: 77px;
+text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#sidebarL-wrapper.light {
+    background: white;
+}
+
+#sidebarL-wrapper.dark {
+    background: rgb(14, 14, 32);
+    color: white;
+    padding-left: 18px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sidebarL-wrapper.dark .navbar__profile button {
+    color: white;
+}
+

@@ -1,0 +1,206 @@
+#mainprofile-wrapper {
+    width: 819px;
+   
+    border-right: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+}
+
+.topbar {
+    display: flex;
+    padding: 22px 0 15px 30px;
+
+}
+
+.topbar__arrow {
+    border: none;
+    background: none;
+    margin-right: 40px;
+}
+
+
+.topbar__name  {
+padding: 0;
+margin: 0;
+}
+
+.topbar__followers  {
+    padding: 0;
+    margin: 0;
+    opacity: .6;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.hero {
+    width: 819px;
+
+}
+.hero img {
+    width: 100%;
+}
+
+.photo {
+    position: absolute;
+    top: 260px;
+    left: 354px;
+    width: 130px;
+    border-radius: 100px;
+    overflow: hidden;
+
+}
+
+.photo img {
+    width: 100%;
+}
+
+.profile {
+    margin-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+.user__name {
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+}
+
+.user__username {
+    font-size: 16px;
+    opacity: .6;
+    line-height: 21px;
+
+}
+
+.work {
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.userlink {
+    color: #1DA1F2;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+
+}
+.more >* {
+    padding-left: 28px ;
+    box-sizing: border-box;
+    color: dimgray;
+   
+}
+
+.more__location {
+    position: relative;
+}
+.more__location::before {
+    content: '';
+    background: url('../../libs/images/location.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    opacity: 1 !important;
+
+}
+
+.more__tg {
+position: relative;
+}
+.more__tg::before {
+    content: '';
+    background: url('../../libs/images/tg-link.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    opacity: 1 !important;
+}
+
+.more__birthday {
+position: relative;
+}
+.more__birthday::before {
+    content: '';
+    background: url('../../libs/images/lupa.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    
+}
+
+.more__joined {
+position: relative;
+}
+.more__joined::before {
+    content: '';
+    background: url('../../libs/images/data3.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+
+.follow {
+    display: flex;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.following {
+    
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+.followers {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.ff {
+    opacity: .6;
+    font-weight: normal;
+}
+
+.options {
+display: flex;
+list-style: none;
+justify-content: space-between;
+padding-left: 0;
+margin-top: 40px;
+
+}
+
+.options button {
+    background: none;
+    border: none;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+#mainprofile-wrapper.dark button {
+    color: white;
+}
+

@@ -1,0 +1,97 @@
+#signin_wrapper {
+    width: 750px;
+    padding: 40px;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+
+}
+
+.signin__logo {
+    width: 40px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.signin__logo img {
+    width: 100%;
+    display: block;
+
+}
+
+.signin__title {
+    margin-top: 43px;
+    margin-bottom: 35px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.signin__input {
+    margin: 0;
+    width: 670px;
+    padding: 23px 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.signin__link {
+    color: #1DA1F2;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.signin__date-title {
+font-size: 18px;
+margin: 40px 0 10px 0;
+padding: 0;
+}
+
+.signin__text {
+    font-size: 16px;
+    opacity: .6;
+
+}
+
+.signin__dates {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 64px;
+    text-align: center;
+
+}
+
+.data__month {
+    width: 312px;
+    height: 70px;
+
+}
+
+.data__days {
+    width: 159px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+.data__year {
+    width: 159px;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+.data__year::placeholder {
+    color: #000;
+}
+
+.signin__btn {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    background: #1DA1F2;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    width: 670px;
+    height: 60px;
+}

@@ -1,0 +1,198 @@
+#sidebarR-wrapper {
+    width: 250px;
+    margin: 20px 28px;
+}
+
+.sidebar__search {
+    border: none;
+    background: #EFF3F4;
+border-radius: 31px;
+color: #5C6C79;
+width: 260px;
+height: 45px;
+padding: 14px ;
+position: relative;
+position: relative;
+
+}
+
+
+.trends {
+    width: 230px;
+    background: #F7F9F9;
+border-radius: 10px;
+padding: 20px 15px;
+margin-top: 20px;
+padding-bottom: 30px;
+
+}
+
+.trends__tittle {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.trends__list {
+list-style: none;
+padding-left: 0;
+}
+
+
+.trends__item {
+    margin-top: 20px;
+
+}
+
+.trends__subname {
+    color: #393B41;
+    font-size: 16px;
+    line-height: 21.28px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.trends__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+
+}
+
+.trends__tweets {
+    color: #393B41;
+    font-size: 16px;
+    line-height: 21.28px;
+    margin: 0;
+    padding: 0;
+}
+
+.trends__link {
+    color: #1DA1F2 ;
+    margin-top: 30px;
+    
+}
+
+.recommendation {
+    width: 230px;
+    background: #F7F9F9;
+border-radius: 10px;
+padding: 20px 15px;
+margin-top: 20px;
+padding-bottom: 25px;
+}
+
+.recommendation__title {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.recommendation__list {
+list-style: none; 
+padding-left: 0;
+}
+
+.recommendation__item {
+    margin-top: 25px;
+    position: relative;
+    padding-left: 10px;
+    
+   
+
+}
+
+.recommendation__names::before {
+    content: '';
+    background: url('../../libs/images/mushtariy.png') 
+        no-repeat center center/cover;
+    position: absolute;
+    top: 5px;
+    left: -7px;
+    width: 37px;
+    height: 37px;
+    z-index: 1;
+}
+.shuxratbek::before {
+    content: '';
+    top: 2px;
+    background: url('../../libs/images/profile1.png');
+    background-size: cover;
+    
+}
+.recommendation__names {
+    padding-left: 25px;
+}
+
+.recommendation__name {
+    font-weight: 600;
+    font-size: 16;
+    margin: 0;
+}
+
+.recommendation__username {
+    opacity: 0.6;
+    font-size: 16px;
+    margin: 0;
+}
+
+.recommendation__btn-follow {
+    font-weight: 700;
+    color: white;
+    background: #000;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 14px;
+    position: absolute;
+    top: 10px;
+    left: 155px;
+    margin-left: 5px;
+}
+
+.recommendation__link {
+    color: #1DA1F2 ;
+    margin-top: 30px;
+}
+
+.sdibear__footer {
+color: #536471;
+margin-top: 30px;
+}
+
+
+
+#sidebarR-wrapper.dark {
+    background: rgb(14, 14, 32);
+    color: white;
+    padding: 20px 28px;
+    margin: 0;
+}
+
+#sidebarR-wrapper.dark .sidebar__search {
+    background: rgb(32, 32, 65);
+}
+
+#sidebarR-wrapper.dark .sidebar__search::placeholder {
+    color: white;
+    opacity: .6;
+}
+
+#sidebarR-wrapper.dark .trends {
+    background: rgb(32, 32, 65);
+}
+#sidebarR-wrapper.dark .recommendation {
+     background: rgb(32, 32, 65);
+}
+
+#sidebarR-wrapper.dark .trends__subname {
+    color: white;
+    opacity: .6;
+}
+
+#sidebarR-wrapper.dark .trends__tweets {
+    color: white;
+    opacity: .6;
+}
